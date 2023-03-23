@@ -336,6 +336,13 @@ img {
   margin-left: var(--mb-0-5);
   transition: .3s;
 }
+.button--white{
+  background-color: #fff;
+  color: var(--first-color);
+}
+.button--white:hover{
+  background-color: #fff;
+}
 
 .button--flex{
   display: inline-flex;
@@ -615,6 +622,7 @@ img {
 .services__button:hover .button__icon{
   transform: translateX(.25rem);
 }
+
 .services__modal{
   position: fixed;
   top: 0;
@@ -717,15 +725,43 @@ img {
 }
 
 /*==================== PROJECT IN MIND ====================*/
-
+.project{
+  text-align: center;
+}
+.project__bg{
+  background-color: var(--first-color-second);
+  padding-top: 3rem;
+}
+.project__title{
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-0-75);
+}
+.project__description{
+  margin-bottom: var(--mb-1-5);
+}
+.project__title,
+.project__description{
+  color: #fff;
+}
+.project__img{
+  width: 232px;
+  justify-self: center;
+}
+.project__icon:hover .button__icon{
+  transform: translateX(.25rem);
+}
 /*==================== TESTIMONIAL ====================*/
-
+                      
+                    /* XXXXXXXXXX */
 
 /*==================== CONTACT ME ====================*/
-
+                   
+                    /* XXXXXXXXXX */
 
 /*==================== FOOTER ====================*/
-
+.footer__container{
+  row-gap: 3.5rem;
+}
 
 /*========== SCROLL UP ==========*/
 
