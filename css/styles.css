@@ -948,6 +948,7 @@ img{
 @media screen and (min-width: 568px){
   .home__content{
     grid-template-columns: max-content 1fr 1fr;
+    
   }
   .home__data{
     grid-column: initial;
@@ -1025,7 +1026,7 @@ img{
     margin: 0;
   }
   .home__container{
-    margin-left: 22rem;
+    /* margin-left: 22rem; */
     row-gap: 5rem;
   }
   .home__content{
