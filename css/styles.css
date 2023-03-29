@@ -87,6 +87,7 @@ body.dark-theme{
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
   --webthumbcolor: green;
+  --container-color: #494949;
 }
 
 /*========== Button Dark/Light ==========*/
@@ -1046,6 +1047,7 @@ img{
   .about__container{
     column-gap: 5rem;
   }
+
   .about__img{
     width: 350px;
   }
@@ -1065,7 +1067,7 @@ img{
     margin: 0 var(--mb-1);
   }
   .qualification__sections{
-    grid-template-columns: .5fr;
+    grid-template-columns: .6fr;
   }
   .services__container{
     grid-template-columns: repeat(3, 218px);
@@ -1103,6 +1105,10 @@ img{
   }
   .project__data{
     padding-top: .8rem;
+  }
+  .contact__container{
+    display: flex;
+    justify-content: space-between;
   }
 
   .footer__container{
